@@ -31,3 +31,16 @@
     font-size: 25px;
     cursor: pointer;
 }
+
+.review-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.all-reviews button {
+    margin-top: 180px;
+    border: 2px solid orange;
+    padding: 7px 10px;
+    font-size: 25px;
+    cursor: pointer;
+}

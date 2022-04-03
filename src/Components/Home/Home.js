@@ -1,8 +1,13 @@
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import useReviews from '../../Hooks/useReviews';
 import bmwx6 from '../../image/bmwx6.jpg'
+import Review from '../Review/Review';
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews()
+
     return (
         <div>
             <div className="main-container">
@@ -21,6 +26,14 @@ const Home = () => {
             </div>
             <div className="customer-reviews">
                 <h2>Customers Reviews</h2>
+                <div className='review-container'>
+                    {
+                        reviews.map(review => <Review
+                            key={review.id}
+                            review={review}
+                        ></Review>)
+                    }
+                </div>
             </div>
             <div className="all-reviews">
                 <button>See All Reviews</button>
