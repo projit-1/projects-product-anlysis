@@ -1,0 +1,27 @@
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-right: 300px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.menu a:hover {
+    color: chocolate;
+}
