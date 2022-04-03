@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "name": "Aaron Finch",
+    "ratings": "4 star",
+    "Comment": "You may want a-lot of power but you wont need it. And it burbles when you shift at the right moment. Has a-lot of space and the sleek look makes everything look 10 times better. ",
+    "img": "https://en.wikipedia.org/wiki/Aaron_Finch#/media/File:AARON_FINCH_(6299558883).jpg"
+  },
+  {
+    "id": "2",
+    "name": "Marcus Harris",
+    "ratings": "5 star",
+    "Comment": "You can gap people easily if you race and it keeps up with a M850 at first. Downside is its not the best for really long road trips for the driver.",
+    "img": "https://st2.depositphotos.com/1054749/10751/i/950/depositphotos_107519098-stock-photo-young-latin-american-man-portrait.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Travis Head",
+    "ratings": "5 star",
+    "Comment": "I always thought the X6 design is unique, sporty and more aggressive (compared to the traditional boxy SUVs like the X5). ",
+    "img": "https://previews.123rf.com/images/belchonock/belchonock1908/belchonock190811328/128759729-handsome-young-african-american-man-on-city-street-space-for-text.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Usman Khawaja",
+    "ratings": "4 star",
+    "Comment": "This X6, however, is for my daily commute and I must say it is absolutely FUN to drive. ",
+    "img": "https://media.istockphoto.com/photos/portrait-of-smiling-african-american-man-outdoors-in-garden-at-home-picture-id1263789745?b=1&k=20&m=1263789745&s=170667a&w=0&h=JZCqX-ePc-9IoENh9QtcjfYUaEDSC-tvIzyhZvwMmZU="
+  },
+  {
+    "id": "5",
+    "name": "Labuschagne",
+    "ratings": "5 star",
+    "Comment": "The 335 hp makes my drive from home to work (and vice versa) exciting (often times I find myself wanting to drive longer than the usual route! LoL). ",
+    "img": "https://i.guim.co.uk/img/media/960c2d9dee4672cc978b6482d46dfaff3e2611df/0_96_1589_2000/master/1589.jpg?width=140&quality=45&auto=format&fit=max&dpr=2&s=fb4fe44f0cc7fac49837c4c7b1b6bd78"
+  },
+  {
+    "id": "6",
+    "name": "Steve Smith",
+    "ratings": "4 star",
+    "Comment": "The trunk cargo space is decent for my family. Without folding the second row seats, we were able to fit 2 large luggage and 3 carry-on rollies for a long weekend getaway. ",
+    "img": "https://im.indiatimes.in/media/content/2017/Jun/rishi_1497513639.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Ashton Turner",
+    "ratings": "5 star",
+    "Comment": "21/26 mpg is also a plus (my older 2016 GLE only gives me 18/23). I'm a happy camper!",
+    "img": "http://www.americanbazaaronline.com/wp-content/uploads/2015/06/Ritesh-Rajan.jpeg"
+  },
+  {
+    "id": "8",
+    "name": "David Warner",
+    "ratings": "5 star",
+    "Comment": "High quality finishes, incredible and intuitive interface, tight build, sports car handling with SUV ride height. 5L v8 turbo has power to spare and then some. Don’t even need Sport mode but wow! ",
+    "img": "https://img.buzzfeed.com/buzzfeed-static/static/2015-03/5/17/campaign_images/webdr07/what-type-of-american-men-are-you-attracted-to-2-32334-1425594719-0_dblbig.jpg?resize=1200:*"
+  },
+  {
+    "id": "9",
+    "name": "Dan Christian",
+    "ratings": "5 star",
+    "Comment": "Absolutely love it all around. gorgeous and carries a punch. More than enough room for what I need. Glad I did not opt for the X5.",
+    "img": "https://www.pewresearch.org/wp-content/uploads/2012/12/Tyson.jpg?w=200"
+  },
+  {
+    "id": "10",
+    "name": "Cameron Green",
+    "ratings": "5 star",
+    "Comment": "It, X6 40i is powered by a 335-hp turbocharged 3.0-liter inline-six that features a 48-volt hybrid system and pairs with an eight-speed automatic transmission and all-wheel drive. ",
+    "img": "https://cdn.shopify.com/s/files/1/0045/5104/9304/files/Styling-American-Crew-Phillipe-RGMN_58cb1549-9653-4a1e-bbdc-4fee6c4bec4c.jpg?v=1648568598"
+  },
+  {
+    "id": "11",
+    "name": "Mitchell Marsh",
+    "ratings": "4 star",
+    "Comment": "The M50i has the same transmission and all-wheel drive, too, but its twin-turbo 4.4-liter V-8 is significantly more powerful.",
+    "img": "https://i.insider.com/5388e5376bb3f7d353fedae2?width=1000&format=jpeg&auto=webp"
+  },
+  {
+    "id": "12",
+    "name": "Glenn Maxwell",
+    "ratings": "5 star",
+    "Comment": "Thanks to its design, it catches a lot of attention from people on the road and on the sidewalks (let's face it, there's not too many of these coupe-design SUVs/SAVs out there - that including similar designed cars from MB, Porsche, Audi and Jaguar). ",
+    "img": "https://i.pinimg.com/originals/e0/5b/49/e05b49ce6548ed9d56d73c952e1d6760.jpg"
+  }
+]
