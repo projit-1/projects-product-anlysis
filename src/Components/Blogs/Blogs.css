@@ -4,12 +4,19 @@
     padding: 20px;
 }
 
-.question :nth-child(h2) {
+.question h2 {
     font-size: 30px;
+    text-align: left;
+    text-decoration: underline;
 }
 
 .question p {
     font-size: 20px;
     text-align: justify;
     padding: 20px;
+}
+
+.question h5 {
+    font-size: 20px;
+    text-decoration: underline;
 }
