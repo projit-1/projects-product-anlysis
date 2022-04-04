@@ -51,8 +51,9 @@ const Dashboard = () => {
     return (
         <div className='chart'>
             <div className="area">
+                <h2>Area Chart</h2>
                 <AreaChart width={550} height={300} data={data}
-                    margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+                    margin={{ top: 10, right: 0, left: 0, bottom: 0 }}>
                     <defs>
                         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
                             <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8} />
@@ -72,6 +73,7 @@ const Dashboard = () => {
                 </AreaChart>
             </div>
             <div className="bar">
+                <h2>Bar Chart</h2>
                 <BarChart width={550} height={300} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
@@ -83,13 +85,15 @@ const Dashboard = () => {
                 </BarChart>
             </div>
             <div className="pie">
+                <h2>Pie Chart</h2>
                 <PieChart width={550} height={300}>
-                    <Pie data={data} dataKey="sell" nameKey="name" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
-                    <Pie data={data} dataKey="revenue" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
+                    <Pie data={data} dataKey="sell" nameKey="name" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
+                    <Pie data={data} dataKey="revenue" nameKey="name" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
                     <Tooltip />
                 </PieChart>
             </div>
             <div className="Composed-Chart">
+                <h2>Composed Chart</h2>
                 <ComposedChart width={550} height={300} data={data}>
                     <XAxis dataKey="name" />
                     <YAxis />
