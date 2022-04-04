@@ -4,3 +4,27 @@
     border-radius: 50%;
 
 }
+
+.review {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    background-color: beige;
+    border: 5px solid gray;
+    border-radius: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review small {
+    color: chocolate;
+    font-size: 15px;
+}
+
+.comment {
+    text-align: justify;
+    margin-right: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+}

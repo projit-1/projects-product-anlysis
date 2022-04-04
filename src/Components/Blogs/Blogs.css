@@ -1,0 +1,15 @@
+.question {
+    background-color: rgb(243, 236, 227);
+    margin: 10px;
+    padding: 20px;
+}
+
+.question :nth-child(h2) {
+    font-size: 30px;
+}
+
+.question p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}

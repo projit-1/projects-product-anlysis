@@ -18,7 +18,9 @@ const Home = () => {
 
                     <p>High quality finishes, incredible and intuitive interface, tight build, sports car handling with SUV ride height. 5L v8 turbo has power to spare and then some. Don’t even need Sport mode but wow! it’s fun when you turn it on.</p>
 
-                    <button>Live Demo</button>
+                    <Link to='/Dashboard'>
+                        <button>Live Demo</button>
+                    </Link>
                 </div>
                 <div className="product-pic">
                     <img src={bmwx6} alt="" />
@@ -31,12 +33,15 @@ const Home = () => {
                         reviews.map(review => <Review
                             key={review.id}
                             review={review}
+
                         ></Review>)
                     }
                 </div>
             </div>
             <div className="all-reviews">
-                <button>See All Reviews</button>
+                <Link to='/Reviews'>
+                    <button>See All Reviews</button>
+                </Link>
             </div>
         </div>
     );

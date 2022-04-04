@@ -51,7 +51,7 @@ const Dashboard = () => {
     return (
         <div className='chart'>
             <div className="area">
-                <AreaChart width={730} height={250} data={data}
+                <AreaChart width={550} height={300} data={data}
                     margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                     <defs>
                         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -72,7 +72,7 @@ const Dashboard = () => {
                 </AreaChart>
             </div>
             <div className="bar">
-                <BarChart width={730} height={250} data={data}>
+                <BarChart width={550} height={300} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis />
@@ -83,14 +83,14 @@ const Dashboard = () => {
                 </BarChart>
             </div>
             <div className="pie">
-                <PieChart width={730} height={250}>
+                <PieChart width={550} height={300}>
                     <Pie data={data} dataKey="sell" nameKey="name" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
                     <Pie data={data} dataKey="revenue" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
                     <Tooltip />
                 </PieChart>
             </div>
             <div className="Composed-Chart">
-                <ComposedChart width={730} height={250} data={data}>
+                <ComposedChart width={550} height={300} data={data}>
                     <XAxis dataKey="name" />
                     <YAxis />
                     <Tooltip />
