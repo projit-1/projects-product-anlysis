@@ -9,19 +9,24 @@
 }
 
 .area {
-    width: 100%;
+    width: 90%;
     padding-left: 50px;
 }
 
 .bar {
-    width: 100%;
+    width: 90%;
 
 }
 
 .pie {
-    width: 100%;
+    width: 90%;
     padding-left: 50px;
 }
 
+.Composed-Chart {
+    width: 90%;
+}
 
 /* responsive */
+
+@media screen {}
