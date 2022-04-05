@@ -26,3 +26,49 @@
 .menu a:hover {
     color: chocolate;
 }
+
+/* ============meida-quaries============== */
+
+
+
+@media only screen and (max-width: 576px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: grey;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+
+    }
+
+    .logo img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: grey;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: grey;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+
+    }
+}

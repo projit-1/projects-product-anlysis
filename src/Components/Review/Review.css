@@ -28,3 +28,51 @@
     padding-right: 10px;
     font-size: 20px;
 }
+
+/* responsive */
+
+@media only screen and (max-width: 576px) {
+
+    .review {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        background-color: beige;
+        border: 5px solid gray;
+        border-radius: 10px;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .review {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        background-color: beige;
+        border: 5px solid gray;
+        border-radius: 10px;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1400px) {
+    .review {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        background-color: beige;
+        border: 5px solid gray;
+        border-radius: 10px;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
